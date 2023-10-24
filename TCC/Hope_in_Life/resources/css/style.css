@@ -1,0 +1,95 @@
+*{margin: 0; padding: 0;}
+body{
+    font-family: "Trebuchet MS", tahoma, arial;
+}
+.container{
+    margin-top: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+}
+.col{
+    text-align: center;
+}
+#formulario{
+    display: inline-block !important;
+    width: 100%;
+    
+    
+}
+
+#formulario h2{
+    color: #275950;
+    float: left;
+    text-align: left;
+    margin-bottom: 4%;
+
+}
+
+#formulario h4{
+    color: #333;
+    font-size: 17px;
+    
+}
+
+.titulo{
+    display: inline-block!important;
+    padding: 15px;
+    background-color: #275950;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    font-weight: bolder !important;
+}
+h4{
+    font-weight: bold !important; 
+}
+#formulario fieldset{
+    border: 0 none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 30px;
+    
+    box-sizing: border-box;
+    margin: 0 10px;
+}
+
+#formulario fieldset:not(:first-of-type){ 
+    display: none;
+}
+
+#formulario input, .formulario textarea{
+    padding: 10px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#formulario .acao{
+    width: 100px;
+    background: #275950;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0;
+    float: left;
+    margin-right: 5%;
+}
+
+#formulario .acao:hover{cursor: pointer;}
+
+.titulos{
+    margin-top: -40px !important;
+}
+
+@media screen and (max-width : 570px) {
+    .container{
+        width: 90% !important;
+    }
+
+
+}
